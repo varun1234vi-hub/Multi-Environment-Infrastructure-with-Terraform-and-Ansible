@@ -58,29 +58,6 @@ Ansible role to install and manage Nginx
 Dynamic inventory generation using Terraform outputs
 
 
-**📂 Project Structure**
-.
-├── README.md
-├── ansible
-│   ├── inventories
-│   │   ├── dev
-│   │   ├── stg
-│   │   └── prod
-│   ├── playbooks
-│   │   ├── install_nginx_playbook.yml
-│   │   └── nginx-role
-│   └── update_inventories.sh
-└── terraform
-    ├── infra
-    │   ├── bucket.tf
-    │   ├── dynamodb.tf
-    │   ├── ec2.tf
-    │   ├── output.tf
-    │   └── variable.tf
-    ├── main.tf
-    ├── providers.tf
-    └── terraform.tf
-
 **project Diagram**
 ![Project-design](https://github.com/user-attachments/assets/45059179-6be5-40ab-92d9-a4f231cc1eb0)
 
